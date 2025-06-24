@@ -1,8 +1,98 @@
+@font-face {
+  font-family: 'Minecraft';
+  src: url('Minecraft.ttf') format('truetype');
+}
+
 body {
     background-color: #7ba6ff;
+    font-family: 'Minecraft', sans-serif;
+    color: #ffffff;
+    margin: 0;
+    height: 100vh;
 }
 
 header {
-    background-color: #343434;
+    background-color: #5b5b5b;
     text-align: center;
+    padding: 1px;
+    height: 160px;
+    margin-bottom: 0;
+    font-size: 42px;
+}
+
+.headerBG {
+    background-color: #4b4b4b;
+    margin: 20px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-bottom: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.principal {
+    background-color: #5b5b5b;
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 0;
+    height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.versionContainer {
+    background-color: #4b4b4b;
+    padding: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: auto;
+    height: 100px;
+    padding-left: 40px;
+    display: flex;
+    align-items: center; 
+}
+
+.versionContainerTitre {
+    font-size: 32px;
+
+}
+
+.versionContainerSpace {
+    font-size: 32px;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #a9a9a9;
+}
+
+.versionContainerDescription {
+    font-size: 18px;
+    color: #a9a9a9;
+}
+
+.versionContainerButton {
+    margin-left: auto;
+    margin-right: 40px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-family: 'Minecraft';
+    background-color: #a7c4ff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.versionContainerLien {
+    text-decoration: none;
+    display: inline-block;
 }
